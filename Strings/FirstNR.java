@@ -3,7 +3,7 @@ class FirstNR{
     public static void main(String[] args){
         String str = "aabbcd";
         HashMap<Character,Integer> map = new HashMap<>();
-        for(int i=0;i<str.length();i++){
+        for(int i=0;i<str.length();i++){    //traversing string
             char ch = str.charAt(i);
             if(map.containsKey(ch)){
                 map.put(ch,map.get(ch)+1);
@@ -11,7 +11,7 @@ class FirstNR{
                 map.put(ch,1);
             }
         }
-        for(int i=0;i<str.length();i++){
+        for(int i=0;i<str.length();i++){   // checking for element which hasn't repeated in str
             char ch = str.charAt(i);
             if(map.get(ch)==1){
                 System.out.println(ch);
