@@ -1,7 +1,7 @@
 import java.util.*;
 class revNum{
     public static void main(String[] args){
-        int n=1452;
+        int n=1201;
         int rev = 0;
         if(n==0){
             rev = 0;
