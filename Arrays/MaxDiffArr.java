@@ -14,3 +14,4 @@ class MaxDiffArr{
         System.out.print(maxDiff);
     }
 }
+     
