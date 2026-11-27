@@ -1,7 +1,7 @@
 import java.util.*;
 class CheckNPal{
     public static void main(String[] args){
-        int n = 1200;
+        int n = 12021;
         int original = n;
         int rev = 0;
         if(n==0){
